@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Search from "../components/Search";
 import axios from "axios";
 import Spinner from "../components/Spinner";
-import MovieCard from "../components/movieCard";
+import MovieCard from "../components/MovieCard";
 
 import { useDebounce } from "react-use";
 import { Link } from "react-router-dom";
