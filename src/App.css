@@ -1,0 +1,6 @@
+.trending-container::-webkit-slider-thumb {
+  display: none;
+}
+.trending-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
