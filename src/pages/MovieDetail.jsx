@@ -43,7 +43,7 @@ const MovieDetail = () => {
 
   if (!movieDetails) {
     return (
-      <div className="w-full h-screen bg-zinc-900">
+      <div className="w-full min-h-screen bg-zinc-900">
         <Spinner />
       </div>
     );
@@ -53,7 +53,7 @@ const MovieDetail = () => {
   }
   return (
     <main
-      className="relative h-screen w-full bg-cover bg-center text-white font-[poppins]"
+      className="relative min-h-screen w-full bg-cover bg-center text-white font-[poppins]"
       style={{
         backgroundImage: `url(https://image.tmdb.org/t/p/original${movieDetails?.backdrop_path})`,
       }}
